@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A última guerra - Star Wars Jogo</title>
+    <style>
+
+@font-face {
+    font-family: 'StarJedi';
+    src: url('fonts/StarJedi.eot');
+    src: url('fonts/StarJedi.eot?#iefix') format('embedded-opentype'), 
+         url('fonts/StarJedi.woff2') format('woff2'),
+         url('fonts/StarJedi.woff') format('woff'),
+         url('fonts/StarJedi.ttf') format('truetype'),
+         url('fonts/StarJedi.svg#StarJedi') format('svg');
+}
+
+.texto-star-wars {
+            font-family: 'StarJedi', sans-serif;
+        }
+
+
+        body {
+            background-image: url('https://i.pinimg.com/originals/c2/30/90/c23090d860acc7356365087158309050.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            color: rgb(255, 255, 255);
+            font-family: 'starjedi', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-top: 50px;
+        }
+        .container {
+            margin: 450px auto;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .button {
+            background-color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            color: rgb(0, 0, 0);
+            padding: 15px 30px;
+            font-size: 1.5rem;
+            margin: 15px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none; 
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #e62922;
+        }
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+        }
+
+        .texto-star-wars {
+            font-family: 'StarJedi', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Star Wars: A última Batalha </h1>
+        <h1 class="texto-star-wars">Em uma galáxia muito, muito distante...</h1>
+    </header>
+    
+    <main class="container">
+        <p>Escolha o nível de Dificuldade:</p><br>
+        <nav>
+            <a href="https://scratch.mit.edu/projects/1085058737" class="button" aria-label="Iniciar como Jedi Iniciante">01 - Jedi Iniciante</a>
+            <a href="https://scratch.mit.edu/projects/1085058737" class="button" aria-label="Iniciar como Cavaleiro Jedi">02 - Cavaleiro Jedi</a>
+            <a href="https://scratch.mit.edu/projects/1085058737" class="button" aria-label="Iniciar como Mestre Jedi"> 03 - Mestre Jedi</a>
+        </nav>
+    </main>
+
+    <footer class="footer">
+        <p>Que a Força esteja com você!</p>
+
+     </footer>
+</body>
+</html>
